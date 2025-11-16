@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>COOlkies</title>
+  <title>Loja de Coisas</title>
   <style>
     body {
       background-color: #F4C2C2;
@@ -28,3 +28,89 @@
       max-width: 1000px;
       margin: 0 auto;
     }
+
+    /* Grid de produtos */
+    .produtos {
+      max-width: 1000px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .produto {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .produto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .produto h3 {
+      margin: 10px 0 5px;
+    }
+
+    .produto p {
+      margin: 5px 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="white-bar"></div>
+  <h1>Loja de Coisas</h1>
+
+  <!-- Grid de Produtos -->
+  <h2>Produtos</h2>
+  <div class="produtos">
+    <div class="produto">
+      <img src="https://via.placeholder.com/200" alt="Produto 1">
+      <h3>Nulo</h3>
+      <p>Descrição: nulo</p>
+      <p>Preço: nulo</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/200" alt="Produto 2">
+      <h3>Nulo</h3>
+      <p>Descrição: nulo</p>
+      <p>Preço: nulo</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/200" alt="Produto 3">
+      <h3>Nulo</h3>
+      <p>Descrição: nulo</p>
+      <p>Preço: nulo</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/200" alt="Produto 4">
+      <h3>Nulo</h3>
+      <p>Descrição: nulo</p>
+      <p>Preço: nulo</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/200" alt="Produto 5">
+      <h3>Nulo</h3>
+      <p>Descrição: nulo</p>
+      <p>Preço: nulo</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/200" alt="Produto 6">
+      <h3>Nulo</h3>
+      <p>Descrição: nulo</p>
+      <p>Preço: nulo</p>
+    </div>
+  </div>
+</body>
+</html>
